@@ -111,10 +111,10 @@ body {
 
 		<script src="index.js"></script>
 		<script>
-const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":10291524,"index.wasm":39514754},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
+const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":10310328,"index.wasm":39514754},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
 const GODOT_THREADS_ENABLED = false;
 const engine = new Engine(GODOT_CONFIG);
-const packURL = "index.pck?v=4ba67649e1b87909b9ffd4c357030b4448f65429";
+const packURL = "index.pck?v=86c9d7cc707083c3f8a47c687fb98d920940a278";
 GODOT_CONFIG.fileSizes[packURL] = GODOT_CONFIG.fileSizes["index.pck"];
 const preloadFile = engine.preloadFile.bind(engine);
 engine.preloadFile = (file, path) => preloadFile(file === "index.pck" ? packURL : file, path);
